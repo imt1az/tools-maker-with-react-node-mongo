@@ -23,7 +23,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="font-semibold focus:bg-slate-500" to="/appointment">
+            <Link className="font-semibold focus:bg-slate-500" to="/blog">
               Blog
             </Link>
           </li>

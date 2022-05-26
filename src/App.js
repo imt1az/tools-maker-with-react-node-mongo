@@ -18,11 +18,17 @@ import AddProduct from "./Pages/Dashboard/AddProduct";
 import MyProfile from "./Pages/Dashboard/MyProfile";
 import ManageOrders from "./Pages/Dashboard/ManageOrders";
 import Payment from "./Pages/Dashboard/Payment";
+import Portfolio from "./Pages/Shared/Portfolio";
+import Blog from "./Pages/Shared/Blog";
+import Reviews from "./Pages/Shared/Reviews";
 function App() {
   return <div>
     <Navbar></Navbar>
     <Routes>
     <Route path="/" element={<Home></Home>} />
+    <Route path="/portfolio" element={<Portfolio></Portfolio>} />
+    <Route path="/blog" element={<Blog></Blog>} />
+    <Route path="/reviews" element={<Reviews></Reviews>} />
     <Route path="/productDetail/:_id" element={<RequireAuth><ProductDetail></ProductDetail></RequireAuth>}></Route>
 
 
