@@ -3,6 +3,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { Link, Outlet } from "react-router-dom";
 import auth from "../../firebase.init";
 import useAdmin from '../hooks/useAdmin';
+import Footer from '../Shared/Footer';
 // import useAdmin from "../hooks/useAdmin";
 import Loading from "../Shared/Loading";
 
@@ -13,7 +14,9 @@ const Dashboard = () => {
       <Loading></Loading>;
     }
     return (
-        <div className="container mx-auto">
+
+       <div>
+          <div className="container mx-auto">
         <div className="drawer drawer-mobile">
           <input
             id="dashBoard-sidebar"
@@ -98,6 +101,8 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
+       </div>
     );
 };
 
