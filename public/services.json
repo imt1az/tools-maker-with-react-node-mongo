@@ -1,0 +1,28 @@
+[
+    {
+        "name":"Bicycle Repair Stand",
+        "description":"Alloy material,head rotated 360degrees, height can be adjusted quickly. One of the successful product ever!",
+        "price":40,
+        "max":100,
+        "min":50,
+        "image" : "https://www.bikehand.com/comm/upimage/p_160721_03572.jpg"
+    },
+    {
+        "_id": 2,
+        "name":"Bicycle Stand Workbench Mount",
+        "description":"Clamp set rotated 360 degrees",
+        "price":50,
+        "max":50,
+        "min":25,
+        "image" : "https://www.bikehand.com/comm/upimage/p_160722_03621.jpg"
+    },
+    {
+        "_id": 3,
+        "name":"Bicycle Lever Storage Stand",
+        "description":"Designed for bike storage from 20mm wide tire on 650C & 700C road wheel to 2.4",
+        "price":60,
+        "max":30,
+        "min":10,
+        "image" : "https://www.bikehand.com/comm/upimage/p_160722_03605.jpg"
+    }
+]
