@@ -24,12 +24,12 @@ const Navbar = () => {
           </li>
           <li>
             <Link className="font-semibold focus:bg-slate-500" to="/appointment">
-              Appointment
+              Blog
             </Link>
           </li>
           <li>
-            <Link className="font-semibold focus:bg-slate-500" to="/about">
-              About
+            <Link className="font-semibold focus:bg-slate-500" to="/portfolio">
+            My portfolio
             </Link>
           </li>
           <li>
