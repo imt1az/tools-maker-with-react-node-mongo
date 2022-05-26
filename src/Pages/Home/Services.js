@@ -21,10 +21,10 @@ const Services = () => {
         <div className="my-5">
         <div className="my-28">
           <h1 className="font-bold text-xl text-center text-primary my-5">
-            OUR SERVICES
+            OUR Tools
           </h1>
           <h1 className="font-bold text-3xl text-center text-accent my-5">
-            Services We Provide 
+            Tools We Made
           </h1>
         </div>
         <div className="grid md:grid-cols-3 gap-10 grid-cols-1 justify-items-center md:p-1 p-4">
