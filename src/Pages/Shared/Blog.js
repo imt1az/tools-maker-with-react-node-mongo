@@ -11,47 +11,58 @@ const Blog = () => {
     <ul class="flex items-start gap-8 flex-wrap">
         <li class="w-2/5">
             <p class="text-lg font-medium leading-6 text-gray-900">
-                What is a home energy rating?
+            How will you improve the performance of a React Application?
             </p>
             <p class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
-                    A home energy rating is an estimated calculation into a homes potential energy usage, which will determine the amount of heating and cooling required to make its occupants comfortable. It produces a star rating dependant on the amount of heating and cooling loads which will be required, from 0 to 10 stars.
+                Keeping component state local where necessary.
+Memoizing React components to prevent unnecessary re-renders.
+Code-splitting in React using dynamic import()
+Windowing or list virtualization in React.
+Lazy loading images in React.
                 </p>
             </p>
         </li>
         <li class="w-2/5">
             <p class="text-lg font-medium leading-6 text-gray-900">
-                Why do I need a 6 Star energy rating?
+            What are the different ways to manage a state in a React application?
             </p>
             <p class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
-                    In most Australian states the government requires that all new homes and apartments (along with certain types of building extensions) built since 2010 be energy rated and achieve a minimum of 6 Stars.
+                When we talk about state in our applications, it’s important to be clear about what types of state actually matter.
+
+There are four main types of state you need to properly manage in your React apps:
+
+Local state
+Global state
+Server state
+URL state
                 </p>
             </p>
         </li>
         <li class="w-2/5">
             <p class="text-lg font-medium leading-6 text-gray-900">
-                What is the general cost of an energy rating?
+            How does prototypical inheritance work?
             </p>
             <p class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
-                    Simple energy rating prices vary greatly on the size and type of building, generally an energy rating will cost somewhere between $130 to $700+.
+                The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object. Traditionally, in order to get and set the [[Prototype]] of an object, we use Object. getPrototypeOf and Object.J
                 </p>
             </p>
         </li>
         <li class="w-2/5">
             <p class="text-lg font-medium leading-6 text-gray-900">
-                What information do I need to supply for an energy rating to be completed??
+            What is a unit test? Why should write unit tests?
             </p>
             <p class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
-                    The information required to complete a full and comprehensive energy report are the following final working drawings: Site Plan, Floor Plan, Elevations, Sections, Lighting layout and window schedule (including sizes of the existing windows).
+                    TUnit tests are typically automated tests written and run by software developers to ensure that a section of an application (known as the "unit") meets its design and behaves as intended. In procedural programming, a unit could be an entire module, but it is more commonly an individual function or procedure.
                 </p>
             </p>
         </li>
         <li class="w-2/5">
             <p class="text-lg font-medium leading-6 text-gray-900">
-                Does building an extension need an energy rating?
+            You have an array of products. Each product has a name, price, description, etc. How will you implement a search to find products by name?
             </p>
             <p class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
@@ -59,16 +70,7 @@ const Blog = () => {
                 </p>
             </p>
         </li>
-        <li class="w-2/5">
-            <p class="text-lg font-medium leading-6 text-gray-900">
-                What is the general cost of an energy rating?
-            </p>
-            <p class="mt-2">
-                <p class="text-base leading-6 text-gray-500">
-                    Depended on the size of the extension you are building there is a chance that it too will need to be energy rated. It&#x27;s always best to check first before going ahead with construction.
-                </p>
-            </p>
-        </li>
+        
     </ul>
 </div>
 
