@@ -62,7 +62,7 @@ URL state
         </li>
         <li class="w-2/5">
             <p class="text-lg font-medium leading-6 text-gray-900">
-            You have an array of products. Each product has a name, price, description, etc. How will you implement a search to find products by name?
+                Does building an extension need an energy rating?
             </p>
             <p class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
@@ -70,7 +70,16 @@ URL state
                 </p>
             </p>
         </li>
-        
+        <li class="w-2/5">
+            <p class="text-lg font-medium leading-6 text-gray-900">
+                What is the general cost of an energy rating?
+            </p>
+            <p class="mt-2">
+                <p class="text-base leading-6 text-gray-500">
+                    Depended on the size of the extension you are building there is a chance that it too will need to be energy rated. It&#x27;s always best to check first before going ahead with construction.
+                </p>
+            </p>
+        </li>
     </ul>
 </div>
 
