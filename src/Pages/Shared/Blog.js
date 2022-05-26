@@ -42,7 +42,7 @@ URL state
         </li>
         <li class="w-2/5">
             <p class="text-lg font-medium leading-6 text-gray-900">
-            How does prototypical inheritance work?
+            
             </p>
             <p class="mt-2">
                 <p class="text-base leading-6 text-gray-500">
